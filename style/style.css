@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+#bannerPortada{
+    background-image: url("../img/");
+}
+
 
 @font-face {
     font-family: 'fuente galeria';
