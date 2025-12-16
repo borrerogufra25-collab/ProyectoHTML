@@ -3,17 +3,17 @@
     src: url(../font/Shortbread_Cookies-Reg.otf);
 }
 
-.FuentePortada {
+.portada {
     font-family: 'fuente titulo';
     font-size: 250px;
+    text-align: center;
     margin: 0 auto;
 }
 
-#bannerPortada {
-    background-image: url("../img/");
+body {
+    background-color: rgb(238, 226, 176);
+    cursor: url("../img/cursor.cur")16 16, auto;
 }
-
-
 
 
 
@@ -41,7 +41,6 @@
     box-sizing: border-box;
 }
 
-
 img {
     width: 75%;
     display: block;
@@ -55,7 +54,6 @@ img {
     text-align: center;
 }
 
-
 p {
     width: 85%;
     margin: 0 auto;
@@ -68,7 +66,6 @@ p {
     margin-bottom: 10px;
     box-sizing: border-box;
 }
-
 
 #titulo+p {
     margin-top: 0;
