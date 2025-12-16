@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'fuente titulo';
+    src: url(../font/Shortbread_Cookies-Reg.otf);
+}
+
+.FuentePortada {
+    font-family: 'fuente titulo';
+    font-size: 250px;
+    margin: 0 auto;
+}
+
+
+@font-face {
+    font-family: 'fuente galeria';
+    src: url(../font/Super\ Croissant.ttf);
+}
+
+.
