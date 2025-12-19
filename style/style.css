@@ -3,6 +3,20 @@
     src: url(../font/Shortbread_Cookies-Reg.otf);
 }
 
+.FuentePortada {
+    font-family: 'fuente titulo';
+    font-size: 250px;
+    margin: 0 auto;
+}
+
+#bannerPortada {
+    background-image: url("../img/");
+}
+
+
+
+
+
 @font-face {
     font-family: 'fuente galeria';
     src: url(../font/Super\ Croissant.ttf);
@@ -58,28 +72,42 @@ body {
 
 .FuenteGaleria body {
     margin: 25px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #f5f5f5;
+    background-image: url('../img/fondotarjetas.jpg');
+    background-repeat: repeat;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .tarjeta {
     width: 350px;
     padding: 15px;
-    border: 2px solid #4c2c69;
+    border: 2px solid #0a3147;
     border-radius: 25px;
-    background-image: url('../img/azulejo.png');
+    background-image: url('../img/fondotarj.jpg');
     background-repeat: repeat;
     box-sizing: border-box;
+    
 }
+
 
 img {
     width: 75%;
     display: block;
     margin: 0 auto;
-    border-radius: 50px;
 }
 
 
@@ -89,18 +117,20 @@ img {
     text-align: center;
 }
 
-.p {
+
+p {
     width: 85%;
     margin: 0 auto;
     text-align: center;
     padding: 2%;
-    background-color: rgba(76, 44, 105, 0.7);
+    background-color: rgba(44, 83, 105, 0.7);
     color: white;
     font-family: 'Zain', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
 }
+
 
 #titulo+p {
     margin-top: 0;
