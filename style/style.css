@@ -31,6 +31,26 @@
     font-size: 35px;
 }
 
+#cabecera {
+    background-image: url('../img/banner\ 2.jpg');
+    background-size: 100%, contain;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    color: #E6B75F;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+#cabecera p {
+    margin: 0 auto;
+    font-family: 'fuente para texto';
+    font-size: 280px;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
 body {
     background-color: rgb(238, 226, 176);
     cursor: url("../img/cursor.cur")16 16, auto;
