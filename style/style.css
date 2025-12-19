@@ -22,6 +22,54 @@
     src: url(../font/Super\ Croissant.ttf);
 }
 
+@font-face {
+    font-family: 'Fuente para texto';
+    src: url(../font/Schoolwork-Regular.ttf);
+}
+
+.portada {
+    font-family: 'fuente titulo';
+    font-size: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    background-color: #786676;
+    margin: 5px auto;
+    text-align: center;
+    font-family: 'Fuente para texto';
+    font-size: 35px;
+}
+
+#cabecera {
+    background-image: url('../img/banner\ 2.jpg');
+    background-size: 100%, contain;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    color: #E6B75F;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+#cabecera p {
+    margin: 0 auto;
+    font-family: 'fuente para texto';
+    font-size: 280px;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+body {
+    background-color: rgb(238, 226, 176);
+    cursor: url("../img/cursor.cur")16 16, auto;
+}
+
 .FuenteGaleria body {
     margin: 25px;
     padding: 25px;
@@ -53,7 +101,7 @@
     background-image: url('../img/fondotarj.jpg');
     background-repeat: repeat;
     box-sizing: border-box;
-    
+
 }
 
 
@@ -69,21 +117,6 @@ img {
     margin-bottom: 0;
     text-align: center;
 }
-
-
-p {
-    width: 85%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 2%;
-    background-color: rgba(44, 83, 105, 0.7);
-    color: white;
-    font-family: 'Zain', sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-
 
 #titulo+p {
     margin-top: 0;
