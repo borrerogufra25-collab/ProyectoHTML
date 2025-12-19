@@ -100,7 +100,7 @@ body {
     background-image: url('../img/fondotarj.jpg');
     background-repeat: repeat;
     box-sizing: border-box;
-    
+
 }
 
 
@@ -116,21 +116,6 @@ img {
     margin-bottom: 0;
     text-align: center;
 }
-
-
-p {
-    width: 85%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 2%;
-    background-color: rgba(44, 83, 105, 0.7);
-    color: white;
-    font-family: 'Zain', sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-
 
 #titulo+p {
     margin-top: 0;
