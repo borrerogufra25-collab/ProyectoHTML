@@ -3,37 +3,23 @@
     src: url(../font/Shortbread_Cookies-Reg.otf);
 }
 
-@font-face {
-    font-family: 'fuente galeria';
-    src: url(../font/Super\ Croissant.ttf);
-}
-
-@font-face {
-    font-family: 'Fuente para texto';
-    src: url(../font/Schoolwork-Regular.ttf);
-}
-
-.portada {
+.FuentePortada {
     font-family: 'fuente titulo';
     font-size: 250px;
-    text-align: center;
     margin: 0 auto;
 }
 
-#footer {
-    display: flex;
-    justify-content: space-around;
-    border-radius: 50px;
-    background-color: #786676;
-    margin: 5px auto;
-    text-align: center;
-    font-family: 'Fuente para texto';
-    font-size: 35px;
+#bannerPortada {
+    background-image: url("../img/");
 }
 
-body {
-    background-color: rgb(238, 226, 176);
-    cursor: url("../img/cursor.cur")16 16, auto;
+
+
+
+
+@font-face {
+    font-family: 'fuente galeria';
+    src: url(../font/Super\ Croissant.ttf);
 }
 
 .FuenteGaleria body {
@@ -50,16 +36,16 @@ body {
     padding: 15px;
     border: 2px solid #4c2c69;
     border-radius: 25px;
-    background-image: url('../img/azulejo.png');
+    background-image: url('../img/fondotarj.jpg');
     background-repeat: repeat;
     box-sizing: border-box;
 }
+
 
 img {
     width: 75%;
     display: block;
     margin: 0 auto;
-    border-radius: 50px;
 }
 
 
@@ -69,7 +55,8 @@ img {
     text-align: center;
 }
 
-.p {
+
+p {
     width: 85%;
     margin: 0 auto;
     text-align: center;
@@ -81,6 +68,7 @@ img {
     margin-bottom: 10px;
     box-sizing: border-box;
 }
+
 
 #titulo+p {
     margin-top: 0;
