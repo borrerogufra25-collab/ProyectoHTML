@@ -13,10 +13,6 @@
     background-image: url("../img/");
 }
 
-
-
-
-
 @font-face {
     font-family: 'fuente galeria';
     src: url(../font/Super\ Croissant.ttf);
@@ -25,6 +21,11 @@
 @font-face {
     font-family: 'Fuente para texto';
     src: url(../font/Schoolwork-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Fuente para main';
+    src: url(../font/Fuente\ letra.ttf);
 }
 
 .portada {
@@ -45,6 +46,16 @@
     font-size: 35px;
 }
 
+#main {
+    text-align: center;
+    font-family: 'Fuente para main';
+    font-size: 35px;
+}
+
+#main li {
+    list-style-type: none;
+}
+
 #cabecera {
     background-image: url('../img/banner\ 2.jpg');
     background-size: 100%, contain;
@@ -56,14 +67,12 @@
     text-align: center;
 }
 
-
 #cabecera p {
     margin: 0 auto;
     font-family: 'fuente para texto';
     font-size: 280px;
     text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
-
 
 body {
     background-color: rgb(238, 226, 176);
@@ -78,7 +87,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #f5f5f5;
-    
+
 }
 
 .contenedor-tarjetas {
@@ -104,13 +113,11 @@ body {
 
 }
 
-
 img {
     width: 75%;
     display: block;
     margin: 0 auto;
 }
-
 
 #titulo {
     font-size: 2em;
