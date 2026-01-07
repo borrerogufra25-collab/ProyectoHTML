@@ -128,3 +128,18 @@ img {
 #titulo+p {
     margin-top: 0;
 }
+
+aside {
+    background-color: rgb(224, 199, 95);
+    width: 250px;
+    min-height: 300px;
+    padding: 15px;
+    position: absolute;
+    right: 5px;
+    top: 335px;
+    font-family: 'Fuente para main';
+}
+
+aside p {
+    text-align: center;
+}
