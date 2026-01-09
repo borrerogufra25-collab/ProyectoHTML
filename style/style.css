@@ -133,3 +133,51 @@ aside p {
     text-align: center;
     margin-top: 0;
 }
+
+#bodyCarrusel {
+    background-color: rgb(238, 226, 176);
+    cursor: url("../img/cursor.cur") 16 16, auto;
+    font-family: 'Fuente para main';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.imgCarrusel {
+    max-width: 55%;
+    display: block;
+}
+
+.nav {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #333;
+    padding: 10px 20px;
+    border: 3px solid #333;
+    border-radius: 50px;
+    background-color: rgb(224, 199, 95);
+    font-family: 'Fuente para main';
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav:hover {
+    background-color: #333;
+    color: white;
+}
+
+.izquierda {
+    margin-right: auto;
+}
+
+.derecha {
+    margin-left: auto;
+}
