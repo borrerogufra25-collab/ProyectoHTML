@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel</title>
+     <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+     <div class="carrusel">
+        <!-- Radio buttons para controlar las imágenes -->
+        <input type="radio" name="slide" id="img1" checked>
+        <input type="radio" name="slide" id="img2">
+        <input type="radio" name="slide" id="img3">
+        
+        <!-- Contenedor de imágenes -->
+        <div class="imagenes">
+            <!-- Imagen 1 -->
+            <div class="slide">
+                <img src="../img/panblanco.jpg" alt="Imagen 1">
+                <div class="pie">
+                    <p>Esta es la primera imagen del carrusel</p>
+                </div>
+            </div>
+            
+            <!-- Imagen 2 -->
+            <div class="slide">
+                <img src="../img/panintegral.jpg" alt="Imagen 2">
+                <div class="pie">
+                    <p>Esta es la segunda imagen del carrusel</p>
+                </div>
+            </div>
+            
+            <!-- Imagen 3 -->
+            <div class="slide">
+                <img src="../img/centeno.jpg" alt="Imagen 3">
+                <div class="pie">
+                    <p>Esta es la tercera imagen del carrusel</p>
+                </div>
+            </div>
+        </div>
+
+        <!--repetir más imagenes si hace faltaaa-->
+        
+        <!-- Botones de navegación -->
+        <div class="botones">
+            <label for="img3" class="anterior">‹</label>
+            <label for="img2" class="anterior">‹</label>
+            <label for="img1" class="anterior">‹</label>
+            
+            <label for="img2" class="siguiente">›</label>
+            <label for="img3" class="siguiente">›</label>
+            <label for="img1" class="siguiente">›</label>
+        </div>
+        
+        <!-- Indicadores numéricos -->
+        <div class="numeros">
+            <label for="img1" class="numero activo">1</label>
+            <label for="img2" class="numero">2</label>
+            <label for="img3" class="numero">3</label>
+        </div>
+    </div>
+</body>
+</html>
