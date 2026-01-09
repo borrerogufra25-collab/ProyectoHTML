@@ -150,3 +150,152 @@ aside {
 aside p {
     text-align: center;
 }
+
+
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Contenedor del carrusel */
+.carrusel {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background: white;
+}
+
+/* Ocultar radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Contenedor de imágenes */
+.imagenes {
+    width: 300%;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+/* Cada slide */
+.slide {
+    width: 33.333%;
+}
+
+/* Imágenes */
+.slide img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Pie de imagen */
+.pie {
+    padding: 15px;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+/* Mostrar la imagen correcta */
+#img1:checked ~ .imagenes {
+    transform: translateX(0);
+}
+
+#img2:checked ~ .imagenes {
+    transform: translateX(-33.333%);
+}
+
+#img3:checked ~ .imagenes {
+    transform: translateX(-66.666%);
+}
+
+/* Botones de navegación */
+.botones {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.anterior, .siguiente {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.anterior:hover, .siguiente:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Ocultar botones que no corresponden */
+#img1:checked ~ .botones .anterior:nth-child(3),
+#img2:checked ~ .botones .anterior:nth-child(1),
+#img3:checked ~ .botones .anterior:nth-child(2) {
+    display: block;
+}
+
+#img1:checked ~ .botones .siguiente:nth-child(4),
+#img2:checked ~ .botones .siguiente:nth-child(5),
+#img3:checked ~ .botones .siguiente:nth-child(6) {
+    display: block;
+}
+
+/* Ocultar todos por defecto */
+.anterior, .siguiente {
+    display: none;
+}
+
+/* Indicadores numéricos */
+.numeros {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.numero {
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.numero:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Resaltar número activo */
+#img1:checked ~ .numeros .numero:nth-child(1),
+#img2:checked ~ .numeros .numero:nth-child(2),
+#img3:checked ~ .numeros .numero:nth-child(3) {
+    background: #007bff;
+    color: white;
+}
